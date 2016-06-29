@@ -1,3 +1,4 @@
+ <header class="mdl-layout__header">
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
 
       <p style="font-weight: 900; font-size: 32px; font-family: Quicksand; margin: 15px; color: MidnightBlue">Anthony Yeung</p>
