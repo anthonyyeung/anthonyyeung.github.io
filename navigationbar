@@ -11,7 +11,7 @@
       <div class="mdl-layout-spacer"></div>
 
       <nav class="mdl-navigation" style="padding: 10px">
-        <a class="mdl-navigation__link" href="https://www.linkedin.com/ayyeung" target="_blank">
+        <a class="mdl-navigation__link" href="https://www.linkedin.com/in/ayyeung" target="_blank">
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button-link">LinkedIn</button>
         </a>
     </div>
