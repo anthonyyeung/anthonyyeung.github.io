@@ -1,36 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Fixed Header</title>
-    <link rel="stylesheet" type="text/css" href="navheader.css"
-  </head>
-  <body>
-    <div class="header">
-      
-      <div class="container">
-        
-        <div class="logo">
-          <h1><a href="#">Anthony Yeung</h1>
-        </div>
-        
-        <div class="nav">
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">ASUC</a></li>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Personal</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        
-      </div>
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+
+      <p style="font-weight: 900; font-size: 32px; font-family: Helvetica; margin: 15px; color: #fff">Anthony Yeung</p>
+
+      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/about">About</a>
+      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/asuc">ASUC</a>
+      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/volunteer">Volunteer</a>
+      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/personal">Personal</a>
+      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/contact">Contact</a>
+
+      <div class="mdl-layout-spacer"></div>
+
+      <nav class="mdl-navigation" style="padding: 10px">
+        <a class="mdl-navigation__link" href="https://www.linkedin.com/in/ayyeung" target="_blank">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button-link">LinkedIn</button>
+        </a>
+      </nav>
     </div>
-    <div class="container">
-    <div class="content">
-      <p>
-        My name is Anthony.
-      </p>
-    </div>
-    </div>
-  </body>
+  </header>
 </html>
