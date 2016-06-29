@@ -1,19 +1,1 @@
- <header class="mdl-layout__header">
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
 
-      <p style="font-weight: 900; font-size: 32px; font-family: Quicksand; margin: 15px; color: MidnightBlue">Anthony Yeung</p>
-
-      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/about">About</a>
-      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/projects">Projects</a>
-      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/skills">Playlist</a>
-      <a class="mdl-button mdl-js-button mdl-js-ripple-effect tab" href="/61b">Personal</a>
-
-      <div class="mdl-layout-spacer"></div>
-
-      <nav class="mdl-navigation" style="padding: 10px">
-        <a class="mdl-navigation__link" href="https://www.linkedin.com/in/ayyeung" target="_blank">
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent button-link">LinkedIn</button>
-        </a>
-       </nav>
-    </div>
-  </header>
