@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <title>Volunteer</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="volunteer.css"/>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header" style="min-width:700px">
+        <div id="logo">
+          <li><h1><a href="index.html">Anthony Yeung</a></h1></li>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="asuc.html">ASUC</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li
+            class="personal"><a href="" onclick="return false;" class="dropbtn">Personal</a>
+            <div class="dropdown-content">
+              <a href="health.html">Health</a>
+              <a href="other.html">Other</a>
+            </div>
+            </li>
+            <li class="personal">
+              <a href="" onclick="return false;" class="dropbtn">Contact</a>
+              <div class="dropdown-content">
+                <a href="form.html">Form</a>
+                <a href="mailto:a.yeung@berkeley.edu">Email</a>
+                <a href="https://www.linkedin.com/in/ayyeung" target="_blank">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <div id="title">
+          <b>Volunteer Work</b>
+        </div>
+        <div class="slideshow" style="max-width:1000px">
+            <img class="mySlides" src="images/15033964_1354220271256236_2020808301_o.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/15034412_1354220227922907_113049123_o.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/15052149_1354220417922888_490566411_o.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/15064915_1354220394589557_2137035781_o.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2207.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2229.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2356.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2295.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2359.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2323.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2339.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2343.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2355.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+            <img class="mySlides" src="images/IMG_2357.jpg" style="width:100%" oncontextmenu="return false" ondragstart="return false">
+        </div>
+
+      <script>
+      var myIndex = Math.floor((Math.random() * 14) + 1);
+      play();
+
+      function play() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(play, 5000);
+      }
+      </script>
+    </div>
+  </body>
+</html>
