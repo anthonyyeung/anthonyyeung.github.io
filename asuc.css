@@ -109,6 +109,27 @@ li a.two, .websites {
   padding-left: 65%;
 }
 
+#intro {
+  padding-top: .5%;
+  padding-right: 20.83%;
+  padding-left: 20.83%;
+  padding-bottom: 2%;
+  min-height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150%;
+}
+
+#citation {
+  padding-top: .5%;
+  padding-right: 20.83%;
+  padding-left: 20.83%;
+  padding-bottom: 2%;
+  min-height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80%;
+  text-align: right;
+}
+
 #title {
   padding-top: 2%;
   padding-right: 20.83%;
